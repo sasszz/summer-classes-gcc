@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B3526892A44EEB200FFD50F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3526872A44EEB200FFD50F /* main.cpp */; };
+		9B35269E2A4B1C6F00FFD50F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B35269D2A4B1C6F00FFD50F /* main.cpp */; };
 		9B3AE22E2A43FBC700FB9EB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3AE22D2A43FBC700FB9EB6 /* main.cpp */; };
 		9B3AE2452A4407AA00FB9EB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3AE2432A4407AA00FB9EB6 /* main.cpp */; };
 		9B3AE2482A440B2A00FB9EB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3AE2472A440B2A00FB9EB6 /* main.cpp */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		9B3526872A44EEB200FFD50F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9B35269D2A4B1C6F00FFD50F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9B3AE22A2A43FBC700FB9EB6 /* labs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = labs; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3AE22D2A43FBC700FB9EB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9B3AE2432A4407AA00FB9EB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		9B3AE2362A43FBF600FB9EB6 /* lab2 */ = {
 			isa = PBXGroup;
 			children = (
+				9B35269D2A4B1C6F00FFD50F /* main.cpp */,
 			);
 			path = lab2;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				9B3AE22E2A43FBC700FB9EB6 /* main.cpp in Sources */,
 				9B3526892A44EEB200FFD50F /* main.cpp in Sources */,
 				9B3AE2452A4407AA00FB9EB6 /* main.cpp in Sources */,
+				9B35269E2A4B1C6F00FFD50F /* main.cpp in Sources */,
 				9B3AE2502A440DDC00FB9EB6 /* main.cpp in Sources */,
 				9B3AE2482A440B2A00FB9EB6 /* main.cpp in Sources */,
 			);

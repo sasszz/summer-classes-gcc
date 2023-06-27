@@ -33,13 +33,14 @@ If you want to display output of a C++ program, you must include #include <iostr
 // 7. Show an output statement in C++ that would have a value of 2.452 and print it as: $2.45
 using namespace std;
 
-int main() {
+// CHANGE TO MAIN FOR IT TO RUN
+int disc1() {
 //    double value = 2.452;
 //    cout << fixed << setprecision(2) << "$" << value << endl;
 //    return 0;
     double number = 2.452;
 
-    cout <<setprecision(2) << fixed;
+    cout << setprecision(2) << fixed;
     cout << "$" << setw(2) << number << endl;
     return 0;
 }

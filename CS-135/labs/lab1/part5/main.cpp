@@ -11,12 +11,15 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <unistd.h>
 #include <iomanip>
 
 using namespace std;
 
 // RENAME FX TO MAIN FOR IT TO RUN
-int part5() {
+int main() {
+    char * dir = getcwd(NULL, 0); // Platform-dependent, see reference link below
+    printf("Current dir: %s", dir);
     cout << "Please enter a character: ";
     char character;
     cin >> character;
