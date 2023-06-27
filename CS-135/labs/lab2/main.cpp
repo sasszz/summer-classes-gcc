@@ -115,15 +115,9 @@ int main() {
     // MENU
     cout << "INTERPLANETARY TRAVEL MENU" << endl;
     cout << "---------------------------" << endl;
-    cout << "a) Mercury" << endl;
-    cout << "b) Venus" << endl;
-    cout << "c) Earth" << endl;
-    cout << "d) Mars" << endl;
-    cout << "e) Jupiter" << endl;
-    cout << "f) Saturn" << endl;
-    cout << "g) Uranus" << endl;
-    cout << "h) Neptune" << endl;
-    cout << "i) Pluto" << endl;
+    for (char option = 'a'; option <= 'i'; option++) {
+        cout << option << ") " << planetLookupTable[option].planetName << endl;
+    }
     cout << "q) Quit" << endl;
     cout << endl;
     
@@ -134,7 +128,7 @@ int main() {
     if (userResponse == 'q') {
         cout << "Quitting the program..." << endl;
         return 0;
-    } else if(planetLookupTable.count(userResponse) == 0) {
+    } else if (planetLookupTable.count(userResponse) == 0) {
         cout << "Invalid choice. Please try again." << endl;
         return 0;
     }
