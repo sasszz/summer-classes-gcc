@@ -12,7 +12,7 @@ int rectangleArea(int length, int width) {
 }
 
 // change to main for it to run
-int main() {
+int part3() {
     
     /* 3) Write a C function int rectArea (int len, int wid) that returns the area of a rectangle with length len and width wid. Test it with a main program that inputs the length and width of a rectangle and outputs its area. Output the value in the main program, not in the function. You need to submit code and output.
 

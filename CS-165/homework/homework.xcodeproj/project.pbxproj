@@ -10,6 +10,7 @@
 		9B3526CB2A4CE6F900FFD50F /* part1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3526CA2A4CE6F900FFD50F /* part1.cpp */; };
 		9B3526CD2A4CE86800FFD50F /* part2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3526CC2A4CE86800FFD50F /* part2.cpp */; };
 		9B3526CF2A4CE87200FFD50F /* part3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3526CE2A4CE87200FFD50F /* part3.cpp */; };
+		9B3526D22A4E3E2400FFD50F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3526D12A4E3E2400FFD50F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		9B3526CA2A4CE6F900FFD50F /* part1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = part1.cpp; sourceTree = "<group>"; };
 		9B3526CC2A4CE86800FFD50F /* part2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = part2.cpp; sourceTree = "<group>"; };
 		9B3526CE2A4CE87200FFD50F /* part3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = part3.cpp; sourceTree = "<group>"; };
+		9B3526D12A4E3E2400FFD50F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		9B3526B62A4CE6BF00FFD50F = {
 			isa = PBXGroup;
 			children = (
+				9B3526D02A4E3E0F00FFD50F /* homework3 */,
 				9B3526C92A4CE6E100FFD50F /* homework2 */,
 				9B3526C02A4CE6BF00FFD50F /* Products */,
 			);
@@ -66,6 +69,14 @@
 				9B3526CE2A4CE87200FFD50F /* part3.cpp */,
 			);
 			path = homework2;
+			sourceTree = "<group>";
+		};
+		9B3526D02A4E3E0F00FFD50F /* homework3 */ = {
+			isa = PBXGroup;
+			children = (
+				9B3526D12A4E3E2400FFD50F /* main.cpp */,
+			);
+			path = homework3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				9B3526CB2A4CE6F900FFD50F /* part1.cpp in Sources */,
 				9B3526CD2A4CE86800FFD50F /* part2.cpp in Sources */,
+				9B3526D22A4E3E2400FFD50F /* main.cpp in Sources */,
 				9B3526CF2A4CE87200FFD50F /* part3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
