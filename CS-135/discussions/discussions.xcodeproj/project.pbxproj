@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3526EA2A521CFF00FFD50F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3526E92A521CFF00FFD50F /* main.cpp */; };
 		9B3AE2142A43D41E00FB9EB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3AE2132A43D41E00FB9EB6 /* main.cpp */; };
 		9B3AE2202A43D52C00FB9EB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3AE21E2A43D52C00FB9EB6 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B3526E92A521CFF00FFD50F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9B3AE2102A43D41E00FB9EB6 /* discussions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = discussions; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3AE2132A43D41E00FB9EB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9B3AE21E2A43D52C00FB9EB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -40,9 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B3526E82A521CEA00FFD50F /* discussion3 */ = {
+			isa = PBXGroup;
+			children = (
+				9B3526E92A521CFF00FFD50F /* main.cpp */,
+			);
+			path = discussion3;
+			sourceTree = "<group>";
+		};
 		9B3AE2072A43D41E00FB9EB6 = {
 			isa = PBXGroup;
 			children = (
+				9B3526E82A521CEA00FFD50F /* discussion3 */,
 				9B3AE21D2A43D50F00FB9EB6 /* discussion2 */,
 				9B3AE2122A43D41E00FB9EB6 /* discussion1 */,
 				9B3AE2112A43D41E00FB9EB6 /* Products */,
@@ -132,6 +143,7 @@
 			files = (
 				9B3AE2202A43D52C00FB9EB6 /* main.cpp in Sources */,
 				9B3AE2142A43D41E00FB9EB6 /* main.cpp in Sources */,
+				9B3526EA2A521CFF00FFD50F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

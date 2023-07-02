@@ -25,7 +25,8 @@ The answer is 22.5 */
 
 using namespace std;
 
-int main() {
+// CHANGE TO MAIN FOR IT TO RUN
+int disc2() {
     double ans;
     ans = 2 * 13 - 7.0 / 2;
     cout << ans << endl;
