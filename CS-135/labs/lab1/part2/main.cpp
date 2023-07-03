@@ -46,7 +46,7 @@
 using namespace std;
 
 // RENAME FX TO MAIN FOR IT TO RUN
-int part2() {
+int lab1part2() {
     cout << "Welcome to Lost Fortune!" << endl;
     cout << endl;
     cout << "Please answer the following questions for your personalized adventure:" << endl;

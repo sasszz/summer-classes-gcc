@@ -14,6 +14,7 @@
 
 using namespace std;
 
+// RENAME FX TO MAIN FOR IT TO RUN
 int format() {
     return 0;
 }

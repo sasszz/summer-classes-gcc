@@ -15,7 +15,7 @@
 using namespace std;
 
 // RENAME FX TO MAIN FOR IT TO RUN
-int part1() {
+int lab1part1() {
     
     double num1 = 3.0, num2 = 5.0;
     double result1 = num1 * num2;

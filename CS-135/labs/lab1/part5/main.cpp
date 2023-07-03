@@ -17,7 +17,7 @@
 using namespace std;
 
 // RENAME FX TO MAIN FOR IT TO RUN
-int part5() {
+int lab1part5() {
     char * dir = getcwd(NULL, 0); // Platform-dependent, see reference link below
     printf("Current dir: %s", dir);
     cout << "Please enter a character: ";

@@ -52,7 +52,7 @@
 using namespace std;
 
 // RENAME FX TO MAIN FOR IT TO RUN
-int part4() {
+int lab1part4() {
     const double APPLE_COST = 0.65;
     const double ORANGE_COST = 0.90;
     const double BANANA_COST = 0.70;

@@ -14,7 +14,7 @@
 using namespace std;
 
 
-int main() {
+int disc4() {
     // ####################################################################################
     // 1. The three loops are while, for, and do/while. Give an example of each that would best fit that kind of loop.
     // ####################################################################################

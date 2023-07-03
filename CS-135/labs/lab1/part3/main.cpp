@@ -36,7 +36,7 @@
 using namespace std;
 
 // RENAME FX TO MAIN FOR IT TO RUN
-int part3() {
+int lab1part3() {
     cout << "What is the length of one side of the base of the pyramid: ";
     double base;
     cin >> base;
