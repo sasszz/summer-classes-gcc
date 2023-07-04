@@ -46,14 +46,14 @@
 //        - If userPlayChoice is 1, assign "Rock" to userDisplayChoice
 //        - If userPlayChoice is 2, assign "Paper" to userDisplayChoice
 //        - If userPlayChoice is 3, assign "Scissors" to userDisplayChoice
-//    Output "You chose: " followed by userDisplayChoice
+//    Output "You chose: " userDisplayChoice endl
 //
 //    Get the computer's play choice and assign it to computerPlayChoice
 //    Assign computerDisplayChoice based on computerPlayChoice:
 //        - If computerPlayChoice is 1, assign "Rock" to computerDisplayChoice
 //        - If computerPlayChoice is 2, assign "Paper" to computerDisplayChoice
 //        - If computerPlayChoice is 3, assign "Scissors" to computerDisplayChoice
-//    Output "The computer chose: " followed by computerDisplayChoice
+//    Output "The computer chose: " computerDisplayChoice endl
 //
 //    Determine if the game is a tie by calling the isTied function with userPlayChoice and computerPlayChoice as arguments, and assign the result to isTie
 //    Determine if the player has won by calling the isPlayerWinner function with userPlayChoice and computerPlayChoice as arguments, and assign the result to isPlayerWon

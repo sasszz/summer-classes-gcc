@@ -55,7 +55,9 @@
 // fx input n/a
 // fx output int 1-3
 // -----------------------------------------------------------------------
-// call srand
+// set const int MIN_VALUE = 1;
+// set const int MAX_VALUE = 3;
+// computerPlayChoice = (rand() % (MAX_VALUE - MIN_VALUE + 1)) + MIN_VALUE;
 // return int computerPlayChoice
 // ###########################################################################################
 
@@ -64,7 +66,7 @@
 // fx output int 1-3
 // -----------------------------------------------------------------------
 // ##! REPEAT if INVALID:
-// call displayMenu()
+// call displaySecondMenu()
 // Input variable int userPlayChoice
 // ##! Input Validation, can only enter 1-3
 // Output Invalid choice endl
@@ -73,13 +75,14 @@
 // ###########################################################################################
 
 // 4) value returning function isTie
-// fx input 2 variables, int1 = userPlayChoice, int 2 = computerPlayChoice
+// fx input 2 variables, int1 = userPlayChoice, int2 = computerPlayChoice
 // fx output bool isTie
 // -----------------------------------------------------------------------
 // if userPlayChoice equals computerPlayChoice:
 //    isTie = true
 // else:
 //    isTie = false
+// return isTie
 // ###########################################################################################
 
 // 5) value returning function isPlayerWinner
@@ -92,6 +95,7 @@
 //    isPlayerWinner = true
 // else:
 //    isPlayerWinner = false
+// return isPlayerWinner
 // ###########################################################################################
 
 #include <stdio.h>
@@ -115,7 +119,7 @@ void displayInitialMenu() {
 // FUNCTION 0
 // ###########################################################################################
 int userQuits() {
-    // Declare local variable
+    // Declare local variables
     char userPlaysOrQuits;
     bool gameContinues;
     
@@ -227,7 +231,7 @@ int getComputerChoice() {
 // FUNCTION 4
 // ###########################################################################################
 bool isTied(int userPlayChoice, int computerPlayChoice) {
-    // Declare local variables
+    // Declare local variable
     bool isTie;
     
     // Test if isTied is being properly imported

@@ -23,8 +23,8 @@
 void displayInitialMenu();
 
 // 0) value returning function userQuits
-// fx input char
-// fx output bool
+// fx input n/a
+// fx output n/a
 bool userQuits();
 
 // 1) void function displaySecondMenu
@@ -43,12 +43,12 @@ int getPlayerChoice();
 int getComputerChoice();
 
 // 4) value returning function isTie
-// fx input 2 variables, int1 = userPlayChoice, int 2 = computerPlayChoice
+// fx input 2 variables, int1 = userPlayChoice, int2 = computerPlayChoice
 // fx output bool isTie
 bool isTied(int, int);
 
 // 5) value returning function isPlayerWinner
-// fx input 2 variables, int1 = userPlayChoice, int 2 = computerPlayChoice
+// fx input 2 variables, int1 = userPlayChoice, int2 = computerPlayChoice
 // fx output bool isPlayerWinner -> can bool and fx have same name? lets see
 bool isPlayerWinner(int, int);
 
