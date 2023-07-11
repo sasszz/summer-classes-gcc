@@ -75,7 +75,7 @@
 using namespace std;
 
 // RENAME FX TO MAIN FOR IT TO RUN
-int main() {
+int lab4part1() {
     bool gameContinues, isTie, isPlayerWon;
     string userDisplayChoice, computerDisplayChoice;
     int userPlayChoice, computerPlayChoice;
