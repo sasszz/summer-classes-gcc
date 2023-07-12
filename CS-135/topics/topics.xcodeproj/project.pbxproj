@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B3526B02A4CD9DD00FFD50F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3526AF2A4CD9DD00FFD50F /* main.cpp */; };
+		9B3526B02A4CD9DD00FFD50F /* topic1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3526AF2A4CD9DD00FFD50F /* topic1.cpp */; };
+		9B71682F2A5E285E00BCFF2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B71682E2A5E285E00BCFF2F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		9B3526AC2A4CD9DD00FFD50F /* topics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = topics; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B3526AF2A4CD9DD00FFD50F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9B3526AF2A4CD9DD00FFD50F /* topic1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = topic1.cpp; sourceTree = "<group>"; };
+		9B71682E2A5E285E00BCFF2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		9B3526AE2A4CD9DD00FFD50F /* topics */ = {
 			isa = PBXGroup;
 			children = (
-				9B3526AF2A4CD9DD00FFD50F /* main.cpp */,
+				9B7168302A5E2D3000BCFF2F /* topic2 */,
+				9B3526AF2A4CD9DD00FFD50F /* topic1.cpp */,
 			);
 			path = topics;
+			sourceTree = "<group>";
+		};
+		9B7168302A5E2D3000BCFF2F /* topic2 */ = {
+			isa = PBXGroup;
+			children = (
+				9B71682E2A5E285E00BCFF2F /* main.cpp */,
+			);
+			path = topic2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3526B02A4CD9DD00FFD50F /* main.cpp in Sources */,
+				9B71682F2A5E285E00BCFF2F /* main.cpp in Sources */,
+				9B3526B02A4CD9DD00FFD50F /* topic1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

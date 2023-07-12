@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main()
+int topic1()
 {
     const double price = 9.95;
     double total, discount;
