@@ -29,7 +29,7 @@ using namespace std;
 //
 // -------------
 
-int main() {
+int disc6() {
     string name;
     int numDashes;
     
