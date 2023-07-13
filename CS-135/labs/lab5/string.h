@@ -12,35 +12,33 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 // PSEUDOCODE
 // Function Prototypes Needed: ####################################
 
 // 1) value returning function inverse
 // fx input string
 // fx output string
-string inverse(string str);
+std::string inverse(std::string str);
 
 // 2) value returning function reverse
 // fx input string
 // fx output string
-string reverse(string str);
+std::string reverse(std::string str);
 
 // 3) value returning function toUpper
 // fx input string
 // fx output string
-string toUpper(string str);
+std::string toUpper(std::string str);
 
 // 4) value returning function countWords
 // fx input string
 // fx output int
-int countWords(string str);
+int countWords(std::string str);
 
 // 5) value returning function countConsonants
 // fx input string
 // fx output int
-int countConsonants(string str);
+int countConsonants(std::string str);
 
 
 #endif /* main_hpp */
