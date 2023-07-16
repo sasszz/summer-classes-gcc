@@ -72,7 +72,7 @@
 
 using namespace std;
 
-int main() {
+int lab5() {
     // DECLARE VARIABLES
     bool userContinues = true;
     string inputString;

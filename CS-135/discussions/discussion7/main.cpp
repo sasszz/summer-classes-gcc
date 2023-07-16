@@ -55,7 +55,7 @@ int calculateSum2DArray(int (&arr)[][COLS], int rows, int cols) {
     return total;
 }
 
-int main() {
+int disc7() {
     // SUM 1D ARRAY
     int myArray1D[] = {1, 2, 3, 4, 5};
     
