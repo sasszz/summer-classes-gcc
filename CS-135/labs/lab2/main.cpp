@@ -81,7 +81,7 @@ struct PlanetData {
 };
 
 // RENAME FX TO MAIN FOR IT TO RUN
-int main() {
+int lab2() {
     // IINITIALIZE VARIABLES
     char userResponse;
     double userWeight;

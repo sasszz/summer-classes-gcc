@@ -92,7 +92,7 @@
 
 using namespace std;
 
-int lab6part1() {
+int main() {
     bool playerContinues = true;
     string playerName;
     string userTicketString;
@@ -112,21 +112,24 @@ int lab6part1() {
         
         switch (playerSelection) {
             case 0: {
-                cout << "Quitting." << endl;
                 playerContinues = false;
                 break;
             }
             case 1: {
                 getLottoPicks(userTicket);
                 genWinNums(winningNums);
-                userTicketString = convertToString(userTicket);
-                winningNumsString = convertToString(winningNums);
+//                userTicketString = convertToString(userTicket);
+//                winningNumsString = convertToString(winningNums);
                 numMatches = countMatches(userTicket, winningNums);
                 cout << endl;
                 cout << playerName << "'s LOTTO RESULTS" << endl;
                 cout << "---------------------" << endl;
-                cout << "WINNING TICKET NUMBERS: " << winningNumsString << " " << endl;
-                cout << playerName << "'S TICKET        : " << userTicketString << " " << endl;
+                cout << "WINNING TICKET NUMBERS: ";
+                printTicket(winningNums);
+                cout << endl;
+                cout << playerName << "'S TICKET        : ";
+                printTicket(userTicket);
+                cout << endl;
                 cout << endl;
                 cout << "RESULTS:" << endl;
                 cout << "--------" << endl;

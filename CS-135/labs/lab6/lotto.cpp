@@ -58,7 +58,7 @@
 // void genWinNums (int[]);
 // PROVIDED BY NOTES
 
-// 3) void function noDuplicates, noInvalidPicks
+// 4) void function noDuplicates
 // fx input array
 // fx output bool
 // bool noDuplicates (int[], int);
@@ -66,18 +66,12 @@
 // declare function noDuplicates(nums[], num)
 //    for i <- 0 to LOTTO_PICK_ARRAY_SIZE - 1 do
 //        if nums[i] is equal to num then
-//            return true
+//            return false
 //        end if
 //    end for
 //
-//    return false
+//    return true
 // end function
-
-// 4) void function zero
-// fx input array
-// fx output n/a
-// void zero(int[]);
-// DIDN'T DO
 
 // 5) value returning function countMatches
 // fx input array1, array2
@@ -99,7 +93,15 @@
 //    return matchCount
 // end function
 
-// 6) value returning function convertToString
+// 6) void function zero
+// fx input array
+// fx output n/a
+// void zero(int[]);
+// DIDN'T DO - implemented after professot's help
+// Initialize all elements of array to 0
+
+// NOT NECESSARY
+// 7) value returning function convertToString
 // fx input array
 // fx output string
 // std::string convertToString(int[]);
@@ -125,8 +127,8 @@
 #include "lotto.h"
 #include <iostream>
 #include <vector>
-
-
+#include <iomanip>
+#include <string>
 
 using namespace std;
 
@@ -145,26 +147,25 @@ void displayMenu() {
 // FUNCTION 2
 // ###########################################################################################
 void getLottoPicks(int nums[]) {
-    string playerName = "Lucie";
-    for (int i = 0; i < LOTTO_PICK_ARRAY_SIZE; i++) {
+    zero(nums);
+    
+    for (int i = 0; i < LOTTO_PICK_ARRAY_SIZE;) {
         int number;
-        bool validInput = false;
-        do {
-            cout << "Enter pick #" << i + 1 << ": ";
-            cin >> number;
-            
-            // Check if the number is within the valid range
-            if (number < 1 || number > 40) {
-                cout << "Invalid entry" << endl;
-                validInput = false;
-            } else if (noDuplicates(nums, number)) {
-                cout << "Duplicate entry!" << endl;
-                validInput = false;
-            } else {
-                validInput = true;  // Set the flag to indicate a valid input
-            }
-        } while (!validInput);
+        cout << "Enter pick #" << i + 1 << ": ";
+        cin >> number;
+        
+        if (number < 1 || number > 40) {
+            cout << "Invalid entry" << endl;
+            continue;
+        }
+        
+        if (!noDuplicates(nums, number)) {
+            cout << "Duplicate entry!" << endl;
+            continue;
+        }
+        
         nums[i] = number;
+        i++;
     }
 }
 
@@ -172,13 +173,15 @@ void getLottoPicks(int nums[]) {
 // FUNCTION 3
 // ###########################################################################################
 void genWinNums(int winningNums[]) {
+    zero(winningNums);
     int number;
 
     for (int i = 0; i < LOTTO_PICK_ARRAY_SIZE; i++) {
-        do {
-            number = (rand() % 40) + 1; // Generate a random number between 1 and 40
-        } while (!noDuplicates(winningNums, number));
-
+        number = (rand() % 40) + 1; // Generate a random number between 1 and 40
+        if (!noDuplicates(winningNums, number)) {
+            continue;
+        }
+        
         winningNums[i] = number;
     }
 }
@@ -187,12 +190,13 @@ void genWinNums(int winningNums[]) {
 // FUNCTION 4
 // ###########################################################################################
 bool noDuplicates (int nums[], int num) {
-    for(int i = 0; i < LOTTO_PICK_ARRAY_SIZE; ++i) {
+    for(int i = 0; i < LOTTO_PICK_ARRAY_SIZE; i++) {
         if(nums[i] == num){
-            return true;
+            return false;
         }
     }
-    return false;
+    return true;
+    // got noDuplicates test backwards
 }
 
 
@@ -215,6 +219,23 @@ int countMatches(int array1[], int array2[]) {
 // ###########################################################################################
 // FUNCTION 6
 // ###########################################################################################
+void zero(int vals[]) {
+    for (int i = 0; i < LOTTO_PICK_ARRAY_SIZE; i++) {
+        vals[i] = 0;
+    }
+}
+
+// ###########################################################################################
+// FUNCTION 7
+// ###########################################################################################
+// PROFESSOR RECOMMENDED:
+void printTicket(int ticket[]) {
+    cout << setfill('0');
+    for (int i = 0; i < LOTTO_PICK_ARRAY_SIZE; i++) {
+        cout << setw(2) << ticket[i] << " ";
+    }
+}
+
 string convertToString(int nums[]) {
     string result;
     for (int i = 0; i < LOTTO_PICK_ARRAY_SIZE; ++i) {

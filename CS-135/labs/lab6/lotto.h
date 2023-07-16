@@ -36,7 +36,7 @@ void getLottoPicks(int []);
 // fx output n/a
 void genWinNums (int[]);
 
-// 3) void function noDuplicates, noInvalidPicks
+// 3) void function noDuplicates
 // fx input array
 // fx output bool
 bool noDuplicates (int[], int);
@@ -51,10 +51,21 @@ void zero(int[]);
 // fx output int
 int countMatches(int[], int[]);
 
-// 6) value returning function convertToString
+// 6) value returning function zero
+// fx input array
+// fx output n/a
+void zero(int vals[]);
+
+// 7) value returning function convertToString
 // fx input array
 // fx output string
 std::string convertToString(int[]);
+
+// PROFESSOR RECOMMENDED:
+// 8) void function printTicket
+// fx input array
+// fx output n/a
+void printTicket(int ticket[]);
 
 
 
