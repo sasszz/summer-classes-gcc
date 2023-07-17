@@ -92,7 +92,7 @@
 
 using namespace std;
 
-int main() {
+int lab6part1() {
     bool playerContinues = true;
     string playerName;
     string userTicketString;
