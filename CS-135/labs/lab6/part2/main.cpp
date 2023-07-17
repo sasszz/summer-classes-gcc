@@ -16,7 +16,7 @@ using namespace std;
 // TEST DATA
 double prices[MAX_ROW] = {40.00, 40.00, 35.00, 35.00, 35.00, 30.00, 30.00, 25.00, 25.00, 25.00, 12.50, 12.50, 12.50, 9.50, 9.50};
 
-int main () {
+int lab6part2 () {
     // DECLARE VARIABLES
     char seatingChart[MAX_ROW][MAX_COL];
     int selectedRow, selectedSeat, userSelection, totalSeatsSold = 0, presetSeatsSold = 0;
