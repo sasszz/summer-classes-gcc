@@ -3,7 +3,7 @@
 //  labs
 //
 //  Created by Lucie Chevreuil on 7/16/23.
-//  Lab 6, Part 2 CS-135
+//  Lab 7 Part 2
 
 #include "employee.h"
 #include <iostream>

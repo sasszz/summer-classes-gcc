@@ -3,7 +3,7 @@
 //  labs
 //
 //  Created by Lucie Chevreuil on 7/16/23.
-//
+//  Lab 7 Part 2
 
 #include "employee.h"
 #include <iostream>
@@ -84,8 +84,6 @@ bool Employee::setYearsWorked(int yearsWorked) {
 }
 
 void printDetails(const Employee& employee) {
-//    cout << employee.getName() << " " << employee.getIdNumber() << "\t" << employee.getDepartment() << "\t" << employee.getPosition() << " " << employee.getYearsWorked()  << endl;
-    
     cout << setw(15) << right << employee.getName();
     cout << setw(7) << right << employee.getIdNumber();
     cout << setw(15) << right << employee.getDepartment();

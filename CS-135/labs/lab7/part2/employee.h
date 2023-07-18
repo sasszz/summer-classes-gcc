@@ -3,7 +3,7 @@
 //  labs
 //
 //  Created by Lucie Chevreuil on 7/16/23.
-//
+//  Lab 7 Part 2
 
 #ifndef employee_h
 #define employee_h
