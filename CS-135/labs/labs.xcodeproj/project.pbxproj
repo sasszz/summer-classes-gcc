@@ -33,6 +33,7 @@
 		9B7168562A64BBA800BCFF2F /* rainfall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B7168552A64BBA800BCFF2F /* rainfall.cpp */; };
 		9B7168582A66011400BCFF2F /* umlDiagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B7168572A66011400BCFF2F /* umlDiagram.cpp */; };
 		9B71685A2A6604A400BCFF2F /* umlDiagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B7168592A6604A400BCFF2F /* umlDiagram.cpp */; };
+		9B71685C2A6613A600BCFF2F /* umlDiagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B71685B2A6613A600BCFF2F /* umlDiagram.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,10 +79,11 @@
 		9B71684D2A64BB5900BCFF2F /* employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = employee.h; sourceTree = "<group>"; };
 		9B71684F2A64BB6300BCFF2F /* employeeTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = employeeTest.cpp; sourceTree = "<group>"; };
 		9B7168522A64BB8E00BCFF2F /* Stats.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stats.cpp; sourceTree = "<group>"; };
-		9B7168532A64BB8E00BCFF2F /* Stats.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stats.hpp; sourceTree = "<group>"; };
+		9B7168532A64BB8E00BCFF2F /* Stats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
 		9B7168552A64BBA800BCFF2F /* rainfall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rainfall.cpp; sourceTree = "<group>"; };
 		9B7168572A66011400BCFF2F /* umlDiagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = umlDiagram.cpp; sourceTree = "<group>"; };
 		9B7168592A6604A400BCFF2F /* umlDiagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = umlDiagram.cpp; sourceTree = "<group>"; };
+		9B71685B2A6613A600BCFF2F /* umlDiagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = umlDiagram.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,8 +307,9 @@
 			isa = PBXGroup;
 			children = (
 				9B7168522A64BB8E00BCFF2F /* Stats.cpp */,
-				9B7168532A64BB8E00BCFF2F /* Stats.hpp */,
+				9B7168532A64BB8E00BCFF2F /* Stats.h */,
 				9B7168552A64BBA800BCFF2F /* rainfall.cpp */,
+				9B71685B2A6613A600BCFF2F /* umlDiagram.cpp */,
 			);
 			path = part3;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				9B3AE2452A4407AA00FB9EB6 /* main.cpp in Sources */,
 				9B35269E2A4B1C6F00FFD50F /* main.cpp in Sources */,
 				9B7168362A60B4E600BCFF2F /* main.cpp in Sources */,
+				9B71685C2A6613A600BCFF2F /* umlDiagram.cpp in Sources */,
 				9B3AE2502A440DDC00FB9EB6 /* main.cpp in Sources */,
 				9B3526A22A4C70AE00FFD50F /* main.cpp in Sources */,
 				9B71682B2A5D134C00BCFF2F /* main.cpp in Sources */,

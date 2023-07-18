@@ -11,7 +11,7 @@
 
 using namespace std;
 
-int main() {
+int lab7part2() {
     Employee employee1("Jenny Jacobs", "JJ8990", "Accounting", "President", 15);
     Employee employee2("Myron Smith", "MS7571");
     Employee employee3;
