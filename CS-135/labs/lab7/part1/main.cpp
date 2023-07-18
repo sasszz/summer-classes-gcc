@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main() {
+int lab7part1() {
     Circle circle1(15.3, "Large");
 
     double radius;
