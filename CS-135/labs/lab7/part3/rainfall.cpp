@@ -11,7 +11,7 @@
 
 using namespace std;
 
-int main() {
+int lab7part3() {
     Stats rainfall;
     
     cout << fixed << setprecision(1);
