@@ -12,13 +12,14 @@
 using namespace std;
 
 int main() {
+    bool playerContinues = true;
     int choice;
     bool hasCookie;
     string flavor;
     double price = 0;
 
 
-    while (true) {
+    do {
         cout << "Two flavor Lemonade Stand" << endl;
         cout << "1) Regular Lemonade" << endl;
         cout << "2) Strawberry Lemonade" << endl;
@@ -38,6 +39,7 @@ int main() {
         switch (choice) {
             case 0:
                 cout << "Quitting" << endl;
+                playerContinues = false;
                 return 0;
             case 1:
                 flavor = "Regular Lemonade";
@@ -62,7 +64,8 @@ int main() {
 
         // Clear the input buffer
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    }
+        
+    } while(playerContinues);
 
     return 0;
 }
